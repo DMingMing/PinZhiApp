@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        
+        <script type="text/javascript">
+            function show() {
+                showToast('12');
+            }
+        
+       
+            function addImage(str) {
+            document.getElementById("myimage").src= "data:image/jpeg;base64,"+str  ;
+            
+            }
+        
+        </script>
+        
+    </head>
+   
+        <body>
+            <input type="button" value="打开相机"
+            onClick="show()"/>
+        <br>
+        <br>
+        <br>
+            <img id="myimage" src= ""style="width:100px;height:100px;"/>
+            
+        </body>
+        
+        
+       
+        
+</html>
